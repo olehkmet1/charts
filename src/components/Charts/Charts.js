@@ -22,7 +22,8 @@ class Charts extends Component {
 
   render() {
     return (
-      <div className="wrapper">
+      <div>
+        <h1>Followers</h1>
         {
           this.state.charts ?
             this.state.charts.map((item, id) => (

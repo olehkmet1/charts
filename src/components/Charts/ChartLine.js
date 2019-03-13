@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class ChartLine extends Component {
   render() {
     return (
-      <div className="wrapper">
+      <div>
       Chart Line
       </div>
     );
